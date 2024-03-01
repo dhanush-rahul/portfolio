@@ -1,0 +1,97 @@
+{
+    "navbar": {
+        "education": "Education",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "images": {
+            "sun": "Change theme to light",
+            "moon": "Change theme to dark",
+            "polishFlag": "Change language to Polish",
+            "greatBritainFlag": "Change language to English"
+        }
+    },
+
+    "landingPage": {
+        "myNameIs": "Hi, my name is",
+        "name": "Dhanush Rahul Sai Charipally.",
+        "description": "A highly motivated software developer with Master's in Applied Computer Science and over 3 years of experience in front-end and back-end technologies. Proven expertise in full-stack development, utilizing a wide range of programming languages and frameworks, including Java, Python, JavaScript, React, Angular, and Vue. Excited to bring my technical proficiency, problem-solving abilities, and dedication to excellence to a dynamic software development team."
+    },
+
+    "education": {
+        "title": "Education",
+        "educationItems": {
+            "bachelors": {
+                "title": "Jawaharlal Nehru Technological University",
+                "content": "Thanks to the education from this institution, I have gained a basic understanding of computer science, which not only broadened my horizons, but also gave me plenty of knowledge about databases and the development of desktop or web applications.",
+                "major": "Bachelor's of Technology in Computer Science"
+            },
+            "masters": {
+                "title": "Saint Francis Xavier University",
+                "content": "From software development to Machine Learning and Natural language processing.",
+                "major": "Master's Degree in Applied Computer Science"
+            }
+        }
+    },
+
+    "experience": {
+        "title": "Experience",
+        "experienceItems": {
+            "intern": {
+                "content": "Introduction to professional software development. Acquired proficiency in technologies such as Spring Boot, Node.js, Angular, and React. Revolutionized projects by seamlessly integrating the cutting-edge technologies of HTML, CSS, and Bootstrap, elevating them to unprecedented levels of aesthetic appeal and user experience.",
+                "profession": "Software Developer Intern",
+                "period": "Jul 2019 - Feb 2021 ",
+                "length": "(1 year 7 months)"
+            },
+            "associate": {
+                "content": "Engineered web solutions for a diverse clientele, crafting bespoke applications for five distinct customers. Led three projects from inception to completion, independently developing a sophisticated web application. Demonstrated coding prowess, contributing to the development of high-quality code and actively participating in comprehensive testing processes. Conducted regular client meetings to showcase project progress, ensuring alignment with their evolving requirements. Achieved recognition for outstanding performance, earning a bonus upon the successful delivery of three projects. Received a commendation in the form of a gift card for consistently delivering exceptional results. Played a pivotal role in achieving a 20% increase in profits by completing key projects.",
+                "profession":"Associate Software Developer",
+                "period": "Feb 2021 - Aug 2022 ",
+                "length": "(1 year 6 months)"
+            }
+        }
+    },
+
+    "skills": {
+        "title": "Skills",
+        "useRegularly": "I use regularly",
+        "hadContact": "I had contact with"
+    },
+
+    "projects": {
+        "title": "Projects",
+        "projectsItems": {
+            "WDI": {
+                "title": "Data analysis on World Development Indicators",
+                "content": "Led a thorough analysis of 30 countries over 30 years using World Bank data and 25 indicators. Applied Python and Pandas for preprocessing, handling missing values, and normalization. Employed data visualization libraries for similarity matrix visualization and conducted Principal Component Analysis (PCA) for dimensionality reduction. Introduced novel indices through feature engineering and utilized k-Means and hierarchical clustering for pattern identification. Visualized economic trends with Matplotlib, highlighting Python's role in data-driven policy decisions and predicting global economic trends."
+            },
+            "FDI": {
+                "title": "Food Drug Interaction using Machine Learning Methodologies",
+                "content": "This research project focuses on leveraging machine learning to address food-drug interactions (FDIs), considering positive, negative, and adverse reactions. The team utilizes open-sourced datasets from DrugBank and FooDB, employing various similarity indexes and machine learning algorithms, including k-Means, Gaussian methods, and neural networks. The dataset undergoes preprocessing, including filtering compounds and calculating molecular similarity ratios. The models are evaluated based on accuracy and precision, with the Multi-Layer Perceptron showing promising results. The paper highlights the importance of understanding FDIs in healthcare due to their impact on morbidity and mortality, emphasizing the need for further research and gold standard datasets."
+            },
+            "toxicity": {
+                "title": "Toxicity Prediction of Chemicals - A Machine Learning Project",
+                "content": "The project focuses on predicting chemical toxicity using machine learning, utilizing a training dataset with SMILE molecules and assay IDs. Features were extracted using chemical information libraries like RDKit and PubChem. Dataset balancing was performed using Random Over Sampler, and the XGB Classifier emerged as the best model. Hyperparameter tuning with Randomized Search CV improved model performance. The final model achieved an 83.02 on Kaggle, with reproducibility ensured through a Dockerfile."
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "content": "A website summarizing information about myself. It includes information about my education, commercial experience and projects, whilst being interactive and animated."
+            },
+            "youtubeDownloader": {
+                "title": "YouTube Downloader",
+                "content": "A desktop application that allows users to download videos from YouTube. It has a tab with download settings, where the user can, among other things, choose the quality of the downloaded content and change the extension."
+            }
+        }
+    },
+
+    "contact": {
+        "title": "Contact"
+    },
+
+    "footer": {
+        "allRightsReserved": "© All rights reserved"
+    },
+
+    "author": "Dhanush Charipally"
+}
