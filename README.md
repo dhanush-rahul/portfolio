@@ -1,14 +1,12 @@
-# Portfolio ![](https://github.com/maciekiwaniuk/portfolio/blob/main/public/img/icons/favicon-32x32.png?raw=true)
+# Portfolio
 
 > ### Project of the portfolio website
 
 - Application is made in TypeScript with [Vue 3](https://vuejs.org/) using Composition API.
 - Global state management is organised by [pinia library](https://pinia.vuejs.org/).
-- Multilingualism of app is managed by [i18n plugin](https://vue-i18n.intlify.dev/). Content of app is available in two languages - English and Polish.
 - Website is responsive, made with [less](https://lesscss.org/).
 - Dark mode has been implemented for the sake of users' eyes.
 - To show beatiful icons is used [iconify library](https://iconify.design/).
-- App got 100 score for accessibility in Google Chrome Lighthouse.
 - In application is used [cli-plugin-pwa](https://cli.vuejs.org/core-plugins/pwa.html#configuration).
 
 # Installation
