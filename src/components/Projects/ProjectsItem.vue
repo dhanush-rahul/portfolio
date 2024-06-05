@@ -90,6 +90,7 @@ const props = defineProps<{
     padding: 0.6rem 0.9rem 0.6rem 0.9rem;
     margin-bottom: 1.5rem;
 
+
     transition: background-color ease @theme-switch-time;
 
     .title {
