@@ -39,6 +39,18 @@ const projects: ProjectType[] = [
         ]
     },
     {
+        titleKey: 'projects.projectsItem.itTicketing.title',
+        contentKey: 'projects.projectsItem.itTicketing.content',
+        github: 'https://github.com/dhanush-rahul/IT-Ticketing-Platform/tree/main/IT-Ticketing-Platform-main',
+        technologies:['python', 'angular']
+    },
+    {
+        titleKey: 'projects.projectsItem.rental.title',
+        contentKey: 'projects.projectsItem.rental.content',
+        github: 'https://github.com/shivapriyasunnam/house-rental-app',
+        technologies: ['kotlin']
+    },
+    {
         titleKey: 'projects.projectsItems.portfolio.title',
         contentKey: 'projects.projectsItems.portfolio.content',
         github: 'https://github.com/dhanush-rahul',
