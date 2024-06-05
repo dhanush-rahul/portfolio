@@ -60,8 +60,8 @@ const hadContactTechnologies: TechnologyType[] = [
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
-    min-width: 50%;
+    margin: 0 auto;
+    width: 65%;
     padding-bottom: 2rem;
 
     .title {
@@ -99,8 +99,8 @@ const hadContactTechnologies: TechnologyType[] = [
 
 @media (min-width: @first-breakpoint) {
     .skills {
-        min-width: 35rem;
-        max-width: 40rem;
+        // min-width: 35rem;
+        // max-width: 40rem;
         padding-bottom: 7rem;
 
         .element {

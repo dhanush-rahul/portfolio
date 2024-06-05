@@ -72,8 +72,8 @@ const educationItems: Education[] = [
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-width: 100%;
-    margin: auto;
+    width: 65%;
+    margin: 0 auto;
     padding-bottom: 1rem;
 
     .title {
@@ -95,8 +95,8 @@ const educationItems: Education[] = [
 
 @media (min-width: @first-breakpoint) {
     .education {
-        min-width: 36rem;
-        max-width: 38rem;
+        // min-width: 36rem;
+        // max-width: 38rem;
         padding-bottom: 7rem;
 
         .title {

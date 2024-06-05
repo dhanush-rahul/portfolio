@@ -35,9 +35,9 @@ const { t } = useLanguageSwitcher();
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 100%;
+    width: 65%;
     min-height: 60vh;
-    margin: auto;
+    margin: 0 auto;
     padding: 1.6rem;
 
     .text {
@@ -60,8 +60,8 @@ const { t } = useLanguageSwitcher();
 
 @media (min-width: @first-breakpoint) {
     .landing-page {
-        min-width: 30rem;
-        max-width: 40rem;
+        // min-width: 30rem;
+        // max-width: 40rem;
         min-height: calc(100vh - @navbar-height - @navbar-border);
 
         .text {

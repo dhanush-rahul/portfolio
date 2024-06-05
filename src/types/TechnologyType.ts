@@ -18,6 +18,7 @@ export type TechnologyType =
     'pyqt5' |
     'pwa' |
     'css' |
+    'html' |
     'java' |
     'symfony' |
     'docker' |
@@ -38,4 +39,19 @@ export type TechnologyType =
     'r'|
     'kotlin'|
     'android'|
-    'cplus';
+    'cplus'|
+    'react'|
+    'redux'
+    | 'ruby'
+    | 'graphql'
+    | 'docker'
+    | 'ci_cd'
+    | 'postman'
+    | 'github'
+    | 'jira'
+    | 'agile'
+    | 'bitbucket'
+    | 'ml'
+    | 'dotnet'
+    | 'hibernate'
+    ;

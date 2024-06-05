@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import TechnologyElement from '@/components/TechnologyElement.vue';
+import ProjectItem from '@/components/Experience/ProjectItem.vue';
 import { useCursorHover } from '@/directives/useCursorHover';
 import { useThemeStore } from '@/stores/theme';
 import { TechnologyType } from '@/types/TechnologyType';
 import { AnimationType } from '@/types/AnimationType';
 import { DarkTheme, LightTheme } from '@/constants/app';
+import { computed } from 'vue';
 
 const vCursorHover = useCursorHover();
 
@@ -16,21 +18,32 @@ const props = defineProps<{
     profession: string,
     period: string,
     length?: string,
-    url: string,
     technologies: TechnologyType[],
-    animation: AnimationType
+    companyProjects:  {
+    title: string;
+    contentKey: string;
+    technologiesUsed: TechnologyType[];
+    role: string;
+  }[],
+    animation: AnimationType;
 }>();
+
+// const parsedProjects = computed(() => {
+
+//     return props.companyProjects.map(project =>{
+//         return{
+//             ...project,
+//             technologiesUsed: project.technologiesUsed.replace(/[\[\]]/g, '').split(',').map((tech: string) => tech.trim())
+//         }
+//     })
+// });
 
 </script>
 
 <template>
     <div :data-aos="props.animation">
-        <a
-            class="link"
-            target="_blank"
-            :href="props.url"
-            v-cursor-hover
-        >
+        <span
+            class="link">
             <div
                 class="experience-item"
                 :class="{ 'experience-item-dark-theme': themeStore.theme === DarkTheme,
@@ -41,12 +54,14 @@ const props = defineProps<{
                 <p class="content">
                     {{ props.content }}
                 </p>
-
-                <div class="technologies">
-                    <TechnologyElement
-                        v-for="(technology, index) in props.technologies"
+                <div class="projects">
+                    <ProjectItem
+                        v-for="(project, index) in props.companyProjects"
                         :key="index"
-                        :element="technology"
+                        :title="project.title"
+                        :content="project.contentKey"
+                        :technologiesUsed="project.technologiesUsed"
+                        :role="project.role"
                     />
                 </div>
 
@@ -58,7 +73,7 @@ const props = defineProps<{
                     </div>
                 </p>
             </div>
-        </a>
+        </span>
     </div>
 </template>
 

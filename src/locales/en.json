@@ -38,20 +38,45 @@
     "experience": {
         "title": "Experience",
         "experienceItems": {
-            "intern": {
-                "content": "Introduction to professional software development. Acquired proficiency in technologies such as Spring Boot, Node.js, Angular, and React. Revolutionized projects by seamlessly integrating the cutting-edge technologies of HTML, CSS, and Bootstrap, elevating them to unprecedented levels of aesthetic appeal and user experience.",
-                "profession": "Software Developer Intern",
-                "period": "Jul 2019 - Feb 2021 ",
-                "length": "(1 year 7 months)"
-            },
             "associate": {
-                "content": "Engineered web solutions for a diverse clientele, crafting bespoke applications for five distinct customers. Led three projects from inception to completion, independently developing a sophisticated web application. Demonstrated coding prowess, contributing to the development of high-quality code and actively participating in comprehensive testing processes. Conducted regular client meetings to showcase project progress, ensuring alignment with their evolving requirements. Achieved recognition for outstanding performance, earning a bonus upon the successful delivery of three projects. Received a commendation in the form of a gift card for consistently delivering exceptional results. Played a pivotal role in achieving a 20% increase in profits by completing key projects.",
+                "content": "Projects Undertaken:",
                 "profession":"Associate Software Developer",
                 "period": "Feb 2021 - Aug 2022 ",
-                "length": "(1 year 6 months)"
+                "length": "(3 years 2 months)",
+                "companyProjects":{
+                    "title": "Projects undertaken",
+                    "companyProjectsItems": {
+                        "BMA":{
+                            "content": "A web application tailored specifically for managing the needs of students with disabilities. The platform facilitates an efficient, user-friendly environment where students can securely log in, upload necessary disability documentation, and subsequently schedule assessments with qualified assessors. This streamlined process ensures that students are appropriately accommodated in their educational environments, thereby enhancing accessibility and compliance with educational standards and regulations.",
+                            "techStack": "[React.js, Redux, Ruby on Rails, GraphQL, Docker, CI/CD pipelines, Postman, GitHub, Jira, Agile methodologies]",
+                            "role": "Implemented numerous React components, creating a modular, scalable front end. Utilized React Hooks and Context for managing local and global state within the application, thereby ensuring smooth data flows and reactivity. Developed robust RESTful APIs using Ruby on Rails. Conducted comprehensive API testing using Postman to verify the functionality, reliability, and security of the application services. Actively participated in all phases of the Agile development process, including sprint planning, daily scrum calls, and retrospectives, using Jira to track and manage project issues and progress effectively."
+                        },
+                        "DSA": {
+                            "content": "A web application meticulously designed to facilitate access to resources for students with disabilities. The platform enables students and parents to sign up and subscribe to essential resources, streamlining the process of resource allocation tailored to individual needs. This application enhances the accessibility of services, ensuring compliance with educational regulations and standards.",
+                            "techStack": "[Angular.js, Node.js, JavaScript, PostgreSQL, Bitbucket, Jira, Agile methodologies.]",
+                            "role":"Engineered interactive user interfaces using Angular.js, ensuring a seamless and responsive user experience. Developed and integrated robust RESTful APIs using JavaScript and Node.js, which were crucial for backend data management and front-end interactions. Implemented comprehensive testing strategies using JUnit to ensure the reliability and efficiency of the application. Participated actively in the Agile development lifecycle, utilizing Jira for task management and sprint tracking. "
+                        },
+                        "yantraka": {
+                            "content":"A cutting-edge web application leveraging advanced machine learning algorithms to forecast trends in cryptocurrency markets. The application provides highly accurate, 30-minute interval predictions, utilizing historical data and real-time analysis to serve financial professionals and enthusiasts with actionable insights.",
+                            "techStack": "[Angular.js, Python, Machine Learning, PostgreSQL, BitBucket, Jira, Agile methodologies.]",
+                            "role": "Spearheaded the development of the application using Angular.js, creating a robust and adaptable front-end architecture. Managed the full software development cycle following Agile practices, ensuring timely deliveries and adherence to project specifications. "
+                        },
+                        "telligent":{
+                            "content":"An integrated community platform that supports a range of applications, including forums, blogs, articles, and wikis, designed to enhance user engagement and content accessibility. This platform allows users to interact dynamically and access a wealth of information seamlessly.  ",
+                            "techStack":"[HTML5, CSS3, Bootstrap, JavaScript, .NET Framework, Jira, Agile methodologies.]",
+                            "role":"Constructed and styled web pages using HTML5 and CSS3, implementing advanced design techniques to enhance visual appeal and user experience. Added dynamic and interactive elements using JavaScript, significantly improving client-side functionality. Utilized the .NET Framework for backend processes, integrating various components smoothly to ensure a cohesive user experience. Employed Agile methodologies for project management, ensuring efficient workflow and timely updates throughout the development process."
+                        },
+                        "greenBean":{
+                            "content":"Dengey",
+                            "techStack":"[Spring Boot, Hibernate, Spring Security, MySQL, Node.js, Angular, React]",
+                            "role":"Acquired proficiency in technologies such as Spring Boot, Node.js, Angular, and React. Gained insights into the workings of Microsoft Dynamics and its practical applications. Built an application for the company to track their tasks and view progress. Revolutionized projects by seamlessly integrating the cutting-edge technologies of HTML, CSS, and Bootstrap, elevating them to unprecedented levels of aesthetic appeal and user experience. Identify and resolve software defects and bugs to ensure high-quality deliverables."
+                        }
+                    }
+                }
             }
         }
     },
+    
 
     "skills": {
         "title": "Skills",

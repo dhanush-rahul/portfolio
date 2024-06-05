@@ -109,6 +109,7 @@ const props = defineProps<{
         align-items: center;
         padding-top: 0.5rem;
         font-family: 'LatoFontLight', serif;
+        font-weight: bold;
     }
 }
 

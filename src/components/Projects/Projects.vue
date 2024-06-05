@@ -78,9 +78,9 @@ const projects: ProjectType[] = [
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-width: 100%;
+    width: 65%;
     min-height: 50vh;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 1rem;
 
     .title {
@@ -101,8 +101,8 @@ const projects: ProjectType[] = [
 
 @media (min-width: @first-breakpoint) {
     .projects {
-        min-width: 40rem;
-        max-width: 42rem;
+        // min-width: 40rem;
+        // max-width: 42rem;
         padding-bottom: 7rem;
 
         .title {

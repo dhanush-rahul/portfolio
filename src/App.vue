@@ -9,11 +9,11 @@
 
         <LandingPage />
 
+        <Skills />
+
         <Experience />
 
         <Education />
-
-        <Skills />
 
         <Projects />
 

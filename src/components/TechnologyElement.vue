@@ -110,6 +110,11 @@ const technologies: TechnologiesType = {
         icon: 'logos:pwa',
         width: 36
     },
+    html:{
+        title: 'HTML',
+        icon: 'logos:html-5',
+        width: 30
+    },
     css: {
         title: 'CSS',
         icon: 'logos:css-3',
@@ -219,7 +224,62 @@ const technologies: TechnologiesType = {
         title: 'C++',
         icon: 'logos:c++',
         width: 15,
-    }
+    },
+    redux: {
+        title: 'Redux',
+        icon: 'logos:redux',
+        width: 30
+    },
+    ruby: {
+        title: 'Ruby',
+        icon: 'logos:ruby',
+        width: 30
+    },
+    graphql: {
+        title: 'GraphQL',
+        icon: 'logos:graphql',
+        width: 30
+    },
+    ci_cd: {
+        title: 'CI/CD',
+        icon: 'logos:jenkins', // Assuming Jenkins as a CI/CD icon, replace with a more fitting one if needed
+        width: 30
+    },
+    postman: {
+        title: 'Postman',
+        icon: 'logos:postman',
+        width: 30
+    },
+    jira: {
+        title: 'Jira',
+        icon: 'logos:jira',
+        width: 30
+    },
+    agile: {
+        title: 'Agile',
+        icon: 'fa-brands:gitlab',
+        width: 30
+    },
+    bitbucket:{
+        title: 'Bitbucket',
+        icon: 'logos:bitbucket',
+        width: 30
+    },
+    ml:{
+        title: 'Machine Learning',
+        icon: 'mdi:brain',
+        width: 30
+    },
+    dotnet: {
+        title: '.NET Framework',
+        icon: 'logos:dotnet',
+        width: 30
+    },
+    hibernate: {
+        title: 'Hibernate',
+        icon: 'logos:hibernate',
+        width: 40
+    },
 };
 
 </script>
