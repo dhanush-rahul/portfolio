@@ -105,7 +105,7 @@ const props = defineProps<{
         text-align: left;
         line-height: 1.3rem;
         font-family: 'LatoFontLight', serif;
-        font-style: italic;
+        // font-style: italic;
         font-size: 1.05rem;
     }
     .technologies {

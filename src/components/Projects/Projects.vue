@@ -39,14 +39,14 @@ const projects: ProjectType[] = [
         ]
     },
     {
-        titleKey: 'projects.projectsItem.itTicketing.title',
-        contentKey: 'projects.projectsItem.itTicketing.content',
+        titleKey: 'IT Ticketing Platform',
+        contentKey: 'A specialized web application tailored for IT companies, designed to streamline the process of issue reporting and resolution. Spearheaded both front-end and back-end development for a web-based IT ticketing system. Utilized Angular.js to create an intuitive and user-friendly interface, and employed responsive design to ensure compatibility across various devices. Developed secure, efficient back-end APIs using JavaScript and Node.js with PostgreSQL for robust data management. Enhanced database performance and integrity through optimized schema design. Conducted extensive testing to guarantee high functionality and reliability under diverse scenarios. Actively engaged in the Agile process, collaborating with team members to refine the application continually based on feedback and technical insights.',
         github: 'https://github.com/dhanush-rahul/IT-Ticketing-Platform/tree/main/IT-Ticketing-Platform-main',
         technologies:['python', 'angular']
     },
     {
-        titleKey: 'projects.projectsItem.rental.title',
-        contentKey: 'projects.projectsItem.rental.content',
+        titleKey: 'Nish Rents - A House Rental App',
+        contentKey: 'Engineered an innovative Android house rental application for Antigonish, simplifying accommodation searches with real-time updates and detailed descriptions. Leveraging a modern tech stack including Kotlin and Android Jetpack Compose, the app offers a user-friendly interface and robust security measures, ensuring a seamless experience for renters and property owners. Integrated advanced features like Material Design components and Lottie animations, setting a new standard for rental platforms in the region and providing a comprehensive solution for individuals and families relocating to Antigonish.',
         github: 'https://github.com/shivapriyasunnam/house-rental-app',
         technologies: ['kotlin']
     },

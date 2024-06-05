@@ -105,15 +105,11 @@
             },
             "rental":{
                 "title": "Nish Rents - A House Rental App",
-                "content": "Engineered an innovative Android house rental application for Antigonish, simplifying accommodation searches with real-time updates and detailed descriptions. Leveraging a modern tech stack including Kotlin and Android Jetpack Compose, the app offers a user-friendly interface and robust security measures, ensuring a seamless experience for renters and property owners. Integrated advanced features like Material Design components and Lottie animations, setting a new standard for rental platforms in the region and providing a comprehensive solution for individuals and families relocating to Antigonish."
+                "content": "1qEngineered an innovative Android house rental application for Antigonish, simplifying accommodation searches with real-time updates and detailed descriptions. Leveraging a modern tech stack including Kotlin and Android Jetpack Compose, the app offers a user-friendly interface and robust security measures, ensuring a seamless experience for renters and property owners. Integrated advanced features like Material Design components and Lottie animations, setting a new standard for rental platforms in the region and providing a comprehensive solution for individuals and families relocating to Antigonish."
             },
             "portfolio": {
                 "title": "Portfolio",
                 "content": "A website summarizing information about myself. It includes information about my education, commercial experience and projects, whilst being interactive and animated."
-            },
-            "youtubeDownloader": {
-                "title": "YouTube Downloader",
-                "content": "A desktop application that allows users to download videos from YouTube. It has a tab with download settings, where the user can, among other things, choose the quality of the downloaded content and change the extension."
             }
         }
     },
